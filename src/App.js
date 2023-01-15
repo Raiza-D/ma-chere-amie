@@ -6,6 +6,7 @@ function App() {
     <div>
       {/* Falling Confetti */}
       <div class="container">
+        <h1 className="title-text">Joyeux 30e Anniversaire, Andréa!</h1>
         <div class="confetti"></div>
         <div class="confetti"></div>
         <div class="confetti"></div>
@@ -52,7 +53,6 @@ function App() {
       </div>
 
       <HappyBirthday />
-
     </div>
   );
 }
