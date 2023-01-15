@@ -5,51 +5,51 @@ function App() {
   return (
     <div>
       {/* Falling Confetti */}
-      <div class="container">
+      <div className="container">
         <h1 className="title-text">Joyeux 30e Anniversaire, Andréa!</h1>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
 
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
 
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
 
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
       </div>
 
       <HappyBirthday />
