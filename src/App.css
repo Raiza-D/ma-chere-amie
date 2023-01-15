@@ -5,6 +5,22 @@
   font-size: 4em;
 }
 
+.carousel {
+  width: 50em;
+  margin: auto;
+}
+
+img {
+  height: 30em;
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    width: auto;
+    height: auto;
+  }
+}
+
 
 /* Rules for falling confetti and background. Taken from Codepen. */
 :root {
