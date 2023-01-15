@@ -10,37 +10,27 @@ function App() {
     <div>
       {/* Falling Confetti */}
       <div className="container">
-        <h1 className="title-text">Joyeux 30e Anniversaire, Andréa!</h1>
+        <h1 className="title-text">
+          Joyeux 30e Anniversaire, ma ch&#232;re amie!
+        </h1>
 
         <Carousel className="carousel">
           <Carousel.Item interval={4000}>
-            <img
-              className="d-block w-100"
-              src={picOne}
-              alt="Photo one"
-            />
+            <img className="d-block w-100" src={picOne} alt="Photo one" />
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={4000}>
-            <img
-              className="d-block w-100"
-              src={picTwo}
-              alt="Photo two"
-            />
+            <img className="d-block w-100" src={picTwo} alt="Photo two" />
             <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={picThree}
-              alt="Photo three"
-            />
+            <img className="d-block w-100" src={picThree} alt="Photo three" />
             <Carousel.Caption>
               <h3>Third slide label</h3>
               <p>
