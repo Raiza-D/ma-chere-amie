@@ -95,6 +95,8 @@ function App() {
       </div>
 
       <HappyBirthday />
+
+      <p className="text-center">Coded by Raiza De Guzman</p>
     </div>
   );
 }
