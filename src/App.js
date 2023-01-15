@@ -1,6 +1,9 @@
 import './App.css';
 import HappyBirthday from "./components/HappyBirthday";
 import { Carousel } from 'react-bootstrap';
+import picOne from "./assets/puppies1.webp";
+import picTwo from "./assets/puppies2.jpeg";
+import picThree from "./assets/puppies3.webp";
 
 function App() {
   return (
@@ -9,23 +12,23 @@ function App() {
       <div className="container">
         <h1 className="title-text">Joyeux 30e Anniversaire, Andréa!</h1>
 
-        <Carousel>
-          <Carousel.Item interval={1000}>
+        <Carousel className="carousel">
+          <Carousel.Item interval={4000}>
             <img
               className="d-block w-100"
-              src=""
-              alt=""
+              src={picOne}
+              alt="Photo one"
             />
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={500}>
+          <Carousel.Item interval={4000}>
             <img
               className="d-block w-100"
-              src=""
-              alt=""
+              src={picTwo}
+              alt="Photo two"
             />
             <Carousel.Caption>
               <h3>Second slide label</h3>
@@ -35,8 +38,8 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src=""
-              alt=""
+              src={picThree}
+              alt="Photo three"
             />
             <Carousel.Caption>
               <h3>Third slide label</h3>
