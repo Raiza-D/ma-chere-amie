@@ -1,3 +1,11 @@
+
+.title-text {
+  text-align: center;
+  font-family: cursive, fantasy, serif;
+  font-size: 4em;
+}
+
+
 /* Rules for falling confetti and background. Taken from Codepen. */
 :root {
 	--stripe1: #E6E6FA;
