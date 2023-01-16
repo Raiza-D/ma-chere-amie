@@ -16,21 +16,21 @@ function App() {
 
         <Carousel className="carousel">
           <Carousel.Item interval={4000}>
-            <img className="d-block w-100" src={picOne} alt="Photo one" />
+            <img className="d-block w-100" src={picOne} alt="Golden retriever puppies" />
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={4000}>
-            <img className="d-block w-100" src={picTwo} alt="Photo two" />
+            <img className="d-block w-100" src={picTwo} alt="Aussie puppy" />
             <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={picThree} alt="Photo three" />
+            <img className="d-block w-100" src={picThree} alt="Daschund mix puppy" />
             <Carousel.Caption>
               <h3>Third slide label</h3>
               <p>
