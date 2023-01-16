@@ -16,7 +16,11 @@ function App() {
 
         <Carousel className="carousel">
           <Carousel.Item interval={4000}>
-            <img className="d-block w-100" src={picOne} alt="Golden retriever puppies" />
+            <img
+              className="d-block w-100"
+              src={picOne}
+              alt="Golden retriever puppies"
+            />
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -30,7 +34,11 @@ function App() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={picThree} alt="Daschund mix puppy" />
+            <img
+              className="d-block w-100"
+              src={picThree}
+              alt="Daschund mix puppy"
+            />
             <Carousel.Caption>
               <h3>Third slide label</h3>
               <p>
@@ -82,11 +90,10 @@ function App() {
         <div className="confetti"></div>
         <div className="confetti"></div>
         <div className="confetti"></div>
+        <footer className="text-center mt-5">Coded by Raiza De Guzman</footer>
       </div>
 
       <HappyBirthday />
-
-      <p className="text-center">Coded by Raiza De Guzman</p>
     </div>
   );
 }
