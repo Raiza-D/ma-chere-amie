@@ -1,9 +1,9 @@
 import './App.css';
 import HappyBirthday from "./components/HappyBirthday";
-import { Carousel } from 'react-bootstrap';
-import picOne from "./assets/puppies1.webp";
-import picTwo from "./assets/puppies2.jpeg";
-import picThree from "./assets/puppies3.webp";
+// import { Carousel } from 'react-bootstrap';
+// import picOne from "./assets/puppies1.webp";
+// import picTwo from "./assets/puppies2.jpeg";
+// import picThree from "./assets/puppies3.webp";
 
 function App() {
   return (
