@@ -14,7 +14,7 @@ function App() {
           Joyeux 30e Anniversaire, ma ch&#232;re amie!
         </h1>
 
-        <Carousel className="carousel">
+        {/* <Carousel className="carousel">
           <Carousel.Item interval={4000}>
             <img
               className="d-block w-100"
@@ -46,7 +46,8 @@ function App() {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel>
+        </Carousel> */}
+        
         <div className="confetti"></div>
         <div className="confetti"></div>
         <div className="confetti"></div>
