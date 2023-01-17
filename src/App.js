@@ -47,17 +47,6 @@ function App() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel> */}
-        
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
-        <div className="confetti"></div>
 
         <div className="confetti"></div>
         <div className="confetti"></div>
@@ -91,10 +80,21 @@ function App() {
         <div className="confetti"></div>
         <div className="confetti"></div>
         <div className="confetti"></div>
+
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <div className="confetti"></div>
+        <HappyBirthday />
         <footer className="text-center mt-5">Coded by Raiza De Guzman</footer>
       </div>
 
-      <HappyBirthday />
     </div>
   );
 }
