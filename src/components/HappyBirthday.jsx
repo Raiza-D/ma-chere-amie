@@ -4,7 +4,7 @@ import { Carousel } from "react-bootstrap";
 import whistlerPic from "../assets/whistler2018.jpg";
 import bcLionsPic from "../assets/bclionsgame2019.jpg";
 import panoRidgePic from "../assets/panoridge2019.JPG";
-import xmasPartyPic from "../assets/xmasparty2019-2.JPG";
+import xmasPartyPic from "../assets/xmasparty2019.JPG";
 import mtSeymourPic from "../assets/seymour2020.jpg";
 import howeSoundPic1 from "../assets/howesound2021-1.jpg";
 import howeSoundPic2 from "../assets/howesound2021-2.JPG";
