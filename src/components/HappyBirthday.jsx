@@ -7,9 +7,29 @@ import panoRidgePic from "../assets/panoridge2019.JPG";
 
 
 export default function HappyBirthday() {
+
+  const photoAlbum = [
+    {
+      id: 1,
+      photoName: whistlerPic,
+      altValue: "Whistler Village 2018",
+    },
+
+    {
+      id: 2,
+      photoName: bcLionsPic,
+      altValue: "BC Lions Game 2019"
+    },
+    {
+      id: 3,
+      photoName: panoRidgePic,
+      altValue: "Panorama Ridge Hike & Camp 2019"
+    }
+  ]
+
   return (
     <div>
-      <Carousel className="carousel">
+      {/* <Carousel className="carousel">
         <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
@@ -22,7 +42,11 @@ export default function HappyBirthday() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
-          <img className="d-block w-100" src={bcLionsPic} alt="BC Lions Game 2019" />
+          <img
+            className="d-block w-100"
+            src={bcLionsPic}
+            alt="BC Lions Game 2019"
+          />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -41,7 +65,25 @@ export default function HappyBirthday() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+      </Carousel> */}
+      <Carousel className="carousel">
+        {photoAlbum.map((photo) => {
+          return (
+            <Carousel.Item interval={4000} key={photo.id}>
+              <img
+                className="d-block w-100"
+                src={photo.photoName}
+                alt={photo.altValue}
+              />
+              <Carousel.Caption>
+                {/* <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+              </Carousel.Caption>
+            </Carousel.Item>
+          );
+        })}
       </Carousel>
+
     </div>
   );
 }
