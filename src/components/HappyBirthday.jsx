@@ -15,6 +15,9 @@ import sunshineCoastPic2 from "../assets/sunshinecoast2022-2.JPG";
 import icebergLakePic1 from "../assets/iceberglake2022-1.JPG";
 import icebergLakePic2 from "../assets/iceberglake2022-2.jpg";
 import mtSproatt2022 from "../assets/mtsproatt2022.jpg";
+import bdayMsg from "../assets/bdaymsgandrea.png";
+import canadaFranceFlags from "../assets/canada-france-flags.jpg";
+import happyBdayCover from "../assets/happybday.png";
 
 export default function HappyBirthday() {
 
@@ -90,6 +93,21 @@ export default function HappyBirthday() {
       photoName: mtSproatt2022,
       altValue: "Mt Sproatt Hike 2022",
     },
+    {
+      id: 15,
+      photoName: bdayMsg,
+      altValue: "My birthday message to Andrea",
+    },
+    {
+      id: 16,
+      photoName: canadaFranceFlags,
+      altValue: "Canada and France flags",
+    },
+    {
+      id: 17,
+      photoName: happyBdayCover,
+      altValue: "Happy birthday",
+    },
   ];
 
   return (
@@ -97,7 +115,7 @@ export default function HappyBirthday() {
       <Carousel className="carousel">
         {photoAlbum.map((photo) => {
           return (
-            <Carousel.Item interval={4000} key={photo.id}>
+            <Carousel.Item interval={7000} key={photo.id}>
               <img
                 className="d-block w-100"
                 src={photo.photoName}
