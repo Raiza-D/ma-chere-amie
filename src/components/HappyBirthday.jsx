@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import { Carousel } from "react-bootstrap";
+import happyBdayCover from "../assets/happybday.png";
+import bdayMsg from "../assets/bdaymsgandrea.png";
 import whistlerPic from "../assets/whistler2018.jpg";
 import bcLionsPic from "../assets/bclionsgame2019.jpg";
 import panoRidgePic from "../assets/panoridge2019.JPG";
@@ -15,9 +17,7 @@ import sunshineCoastPic2 from "../assets/sunshinecoast2022-2.JPG";
 import icebergLakePic1 from "../assets/iceberglake2022-1.JPG";
 import icebergLakePic2 from "../assets/iceberglake2022-2.jpg";
 import mtSproatt2022 from "../assets/mtsproatt2022.jpg";
-import bdayMsg from "../assets/bdaymsgandrea.png";
-import canadaFranceFlags from "../assets/canada-france-flags.jpg";
-import happyBdayCover from "../assets/happybday.png";
+
 
 export default function HappyBirthday() {
 
@@ -102,15 +102,11 @@ export default function HappyBirthday() {
       photoName: mtSproatt2022,
       altValue: "Mt Sproatt Hike 2022",
     },
-    {
-      id: 17,
-      photoName: canadaFranceFlags,
-      altValue: "Canada and France flags",
-    },
   ];
 
   return (
     <div>
+
       <Carousel className="carousel">
         {photoAlbum.map((photo) => {
           return (
@@ -124,7 +120,7 @@ export default function HappyBirthday() {
           );
         })}
       </Carousel>
-
+      
     </div>
   );
 }
