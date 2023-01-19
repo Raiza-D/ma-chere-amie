@@ -9,6 +9,8 @@
 .carousel {
   width: 50em;
   margin: auto;
+	border-radius: 10px;
+  overflow: hidden;
 }
 
 img {
