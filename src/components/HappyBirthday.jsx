@@ -24,89 +24,88 @@ export default function HappyBirthday() {
   const photoAlbum = [
     {
       id: 1,
-      photoName: whistlerPic,
-      altValue: "Whistler Village 2018",
+      photoName: happyBdayCover,
+      altValue: "Happy birthday",
     },
-
     {
       id: 2,
-      photoName: bcLionsPic,
-      altValue: "BC Lions Game 2019",
-    },
-    {
-      id: 3,
-      photoName: panoRidgePic,
-      altValue: "Panorama Ridge Hike & Camp 2019",
-    },
-    {
-      id: 4,
-      photoName: xmasPartyPic,
-      altValue: "Christmas Party 2019",
-    },
-    {
-      id: 5,
-      photoName: mtSeymourPic,
-      altValue: "Pump Peak Hike 2020",
-    },
-    {
-      id: 6,
-      photoName: howeSoundPic1,
-      altValue: "Howe Sound Crest Trail, behind the Lions",
-    },
-    {
-      id: 7,
-      photoName: howeSoundPic2,
-      altValue: "Howe Sound Crest Trail, in the clouds",
-    },
-    {
-      id: 8,
-      photoName: canucksGamePic,
-      altValue: "Canucks Game Dec 2021",
-    },
-    {
-      id: 9,
-      photoName: joffreLakePic,
-      altValue: "Joffre Lake Hike 2022",
-    },
-    {
-      id: 10,
-      photoName: sunshineCoastPic1,
-      altValue: "Sunshine Coast Pre-Departure",
-    },
-    {
-      id: 11,
-      photoName: sunshineCoastPic2,
-      altValue: "Andrea looking down in the valley from Walt Hill",
-    },
-    {
-      id: 12,
-      photoName: icebergLakePic1,
-      altValue: "Iceberg Lake Hike 2022",
-    },
-    {
-      id: 13,
-      photoName: icebergLakePic2,
-      altValue: "Andrea with Canadian flag, Iceberg Lake background",
-    },
-    {
-      id: 14,
-      photoName: mtSproatt2022,
-      altValue: "Mt Sproatt Hike 2022",
-    },
-    {
-      id: 15,
       photoName: bdayMsg,
       altValue: "My birthday message to Andrea",
     },
     {
+      id: 3,
+      photoName: whistlerPic,
+      altValue: "Whistler Village 2018",
+    },
+    {
+      id: 4,
+      photoName: bcLionsPic,
+      altValue: "BC Lions Game 2019",
+    },
+    {
+      id: 5,
+      photoName: panoRidgePic,
+      altValue: "Panorama Ridge Hike & Camp 2019",
+    },
+    {
+      id: 6,
+      photoName: xmasPartyPic,
+      altValue: "Christmas Party 2019",
+    },
+    {
+      id: 7,
+      photoName: mtSeymourPic,
+      altValue: "Pump Peak Hike 2020",
+    },
+    {
+      id: 8,
+      photoName: howeSoundPic1,
+      altValue: "Howe Sound Crest Trail, behind the Lions",
+    },
+    {
+      id: 9,
+      photoName: howeSoundPic2,
+      altValue: "Howe Sound Crest Trail, in the clouds",
+    },
+    {
+      id: 10,
+      photoName: canucksGamePic,
+      altValue: "Canucks Game Dec 2021",
+    },
+    {
+      id: 11,
+      photoName: joffreLakePic,
+      altValue: "Joffre Lake Hike 2022",
+    },
+    {
+      id: 12,
+      photoName: sunshineCoastPic1,
+      altValue: "Sunshine Coast Pre-Departure",
+    },
+    {
+      id: 13,
+      photoName: sunshineCoastPic2,
+      altValue: "Andrea looking down in the valley from Walt Hill",
+    },
+    {
+      id: 14,
+      photoName: icebergLakePic1,
+      altValue: "Iceberg Lake Hike 2022",
+    },
+    {
+      id: 15,
+      photoName: icebergLakePic2,
+      altValue: "Andrea with Canadian flag, Iceberg Lake background",
+    },
+    {
       id: 16,
-      photoName: canadaFranceFlags,
-      altValue: "Canada and France flags",
+      photoName: mtSproatt2022,
+      altValue: "Mt Sproatt Hike 2022",
     },
     {
       id: 17,
-      photoName: happyBdayCover,
-      altValue: "Happy birthday",
+      photoName: canadaFranceFlags,
+      altValue: "Canada and France flags",
     },
   ];
 
