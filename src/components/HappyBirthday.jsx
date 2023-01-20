@@ -18,6 +18,8 @@ import icebergLakePic1 from "../assets/iceberglake2022-1.JPG";
 import icebergLakePic2 from "../assets/iceberglake2022-2.jpg";
 import mtSproatt2022 from "../assets/mtsproatt2022.jpg";
 
+import andreaBday2022 from "../assets/andreabday2022.jpg";
+
 
 export default function HappyBirthday() {
 
@@ -117,6 +119,12 @@ export default function HappyBirthday() {
       photoName: mtSproatt2022,
       delayValue: 4000,
       altValue: "Mt Sproatt Hike 2022",
+    },
+    {
+      id: 17,
+      photoName: andreaBday2022,
+      delayValue: 4000,
+      altValue: "Group photo with Andrea",
     },
   ];
 
