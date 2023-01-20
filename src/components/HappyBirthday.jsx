@@ -25,81 +25,97 @@ export default function HappyBirthday() {
     {
       id: 1,
       photoName: happyBdayCover,
+      delayValue: 4000,
       altValue: "Happy birthday",
     },
     {
       id: 2,
       photoName: bdayMsg,
+      delayValue: 15000,
       altValue: "My birthday message to Andrea",
     },
     {
       id: 3,
       photoName: whistlerPic,
+      delayValue: 4000,
       altValue: "Whistler Village 2018",
     },
     {
       id: 4,
       photoName: bcLionsPic,
+      delayValue: 4000,
       altValue: "BC Lions Game 2019",
     },
     {
       id: 5,
       photoName: panoRidgePic,
+      delayValue: 4000,
       altValue: "Panorama Ridge Hike & Camp 2019",
     },
     {
       id: 6,
       photoName: xmasPartyPic,
+      delayValue: 4000,
       altValue: "Christmas Party 2019",
     },
     {
       id: 7,
       photoName: mtSeymourPic,
+      delayValue: 4000,
       altValue: "Pump Peak Hike 2020",
     },
     {
       id: 8,
       photoName: howeSoundPic1,
+      delayValue: 4000,
       altValue: "Howe Sound Crest Trail, behind the Lions",
     },
     {
       id: 9,
       photoName: howeSoundPic2,
+      delayValue: 4000,
       altValue: "Howe Sound Crest Trail, in the clouds",
     },
     {
       id: 10,
       photoName: canucksGamePic,
+      delayValue: 4000,
       altValue: "Canucks Game Dec 2021",
     },
     {
       id: 11,
       photoName: joffreLakePic,
+      delayValue: 4000,
       altValue: "Joffre Lake Hike 2022",
     },
     {
       id: 12,
       photoName: sunshineCoastPic1,
+      delayValue: 4000,
       altValue: "Sunshine Coast Pre-Departure",
     },
     {
       id: 13,
       photoName: sunshineCoastPic2,
+      delayValue: 4000,
       altValue: "Andrea looking down in the valley from Walt Hill",
     },
     {
       id: 14,
       photoName: icebergLakePic1,
+      delayValue: 4000,
       altValue: "Iceberg Lake Hike 2022",
     },
     {
       id: 15,
       photoName: icebergLakePic2,
+      delayValue: 4000,
       altValue: "Andrea with Canadian flag, Iceberg Lake background",
     },
     {
       id: 16,
       photoName: mtSproatt2022,
+      delayValue: 4000,
       altValue: "Mt Sproatt Hike 2022",
     },
   ];
@@ -110,7 +126,7 @@ export default function HappyBirthday() {
       <Carousel className="carousel">
         {photoAlbum.map((photo) => {
           return (
-            <Carousel.Item interval={7000} key={photo.id}>
+            <Carousel.Item interval={photo.delayValue} key={photo.id}>
               <img
                 className="d-block w-100"
                 src={photo.photoName}
@@ -120,7 +136,7 @@ export default function HappyBirthday() {
           );
         })}
       </Carousel>
-      
+
     </div>
   );
 }
