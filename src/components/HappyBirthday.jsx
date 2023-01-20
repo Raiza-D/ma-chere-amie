@@ -11,6 +11,7 @@ import mtSeymourPic from "../assets/seymour2020.jpg";
 import howeSoundPic1 from "../assets/howesound2021-1.jpg";
 import howeSoundPic2 from "../assets/howesound2021-2.JPG";
 import canucksGamePic from "../assets/canucksgame2021.JPG";
+import andreaBday2022 from "../assets/andreabday2022.jpg";
 import joffreLakePic from "../assets/joffrelake2022.jpg";
 import sunshineCoastPic1 from "../assets/sunshinecoast2022-1.jpg";
 import sunshineCoastPic2 from "../assets/sunshinecoast2022-2.JPG";
@@ -18,7 +19,6 @@ import icebergLakePic1 from "../assets/iceberglake2022-1.JPG";
 import icebergLakePic2 from "../assets/iceberglake2022-2.jpg";
 import mtSproatt2022 from "../assets/mtsproatt2022.jpg";
 
-import andreaBday2022 from "../assets/andreabday2022.jpg";
 
 
 export default function HappyBirthday() {
