@@ -6,6 +6,11 @@
   padding-bottom: 0.5em;
 }
 
+footer {
+	font-size: smaller;
+	padding-bottom: 3px;
+}
+
 .code-link {
 	color: black;
 	text-decoration: none;
