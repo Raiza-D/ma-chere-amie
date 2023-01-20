@@ -56,8 +56,17 @@ function App() {
         <div className="confetti"></div>
         <HappyBirthday />
       </div>
-      <footer className="text-center">Coded by Raiza De Guzman</footer>
-
+      <footer className="text-center">
+        &#169; 2023 Raiza De Guzman || {" "}
+        <a
+          href="https://github.com/Raiza-D/ma-chere-amie"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="code-link"
+        >
+           View code
+        </a>
+      </footer>
     </div>
   );
 }
