@@ -20,7 +20,6 @@ import icebergLakePic2 from "../assets/iceberglake2022-2.jpg";
 import mtSproatt2022 from "../assets/mtsproatt2022.jpg";
 
 
-
 export default function HappyBirthday() {
 
   const photoAlbum = [
