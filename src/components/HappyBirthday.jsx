@@ -86,45 +86,45 @@ export default function HappyBirthday() {
     },
     {
       id: 11,
+      photoName: andreaBday2022,
+      delayValue: 4000,
+      altValue: "Group photo with Andrea",
+    },
+    {
+      id: 12,
       photoName: joffreLakePic,
       delayValue: 4000,
       altValue: "Joffre Lake Hike 2022",
     },
     {
-      id: 12,
+      id: 13,
       photoName: sunshineCoastPic1,
       delayValue: 4000,
       altValue: "Sunshine Coast Pre-Departure",
     },
     {
-      id: 13,
+      id: 14,
       photoName: sunshineCoastPic2,
       delayValue: 4000,
       altValue: "Andrea looking down in the valley from Walt Hill",
     },
     {
-      id: 14,
+      id: 15,
       photoName: icebergLakePic1,
       delayValue: 4000,
       altValue: "Iceberg Lake Hike 2022",
     },
     {
-      id: 15,
+      id: 16,
       photoName: icebergLakePic2,
       delayValue: 4000,
       altValue: "Andrea with Canadian flag, Iceberg Lake background",
     },
     {
-      id: 16,
+      id: 17,
       photoName: mtSproatt2022,
       delayValue: 4000,
       altValue: "Mt Sproatt Hike 2022",
-    },
-    {
-      id: 17,
-      photoName: andreaBday2022,
-      delayValue: 4000,
-      altValue: "Group photo with Andrea",
     },
   ];
 
