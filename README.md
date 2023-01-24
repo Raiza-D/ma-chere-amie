@@ -1,4 +1,4 @@
-## Ma Ch&#232;re Amie
+## Ma Ch&#232;re Amie 🎂
 
 A landing page doubling as a digital birthday card for a friend's 30th birthday.
 
