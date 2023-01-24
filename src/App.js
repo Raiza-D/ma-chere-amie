@@ -57,14 +57,14 @@ function App() {
         <HappyBirthday />
       </div>
       <footer className="text-center">
-        &#169; 2023 Raiza De Guzman || {" "}
+        &#169; 2023 Raiza De Guzman ||{" "}
         <a
           href="https://github.com/Raiza-D/ma-chere-amie"
           target="_blank"
           rel="noopener noreferrer"
           className="code-link"
         >
-           View code
+          View code &#8594;
         </a>
       </footer>
     </div>
